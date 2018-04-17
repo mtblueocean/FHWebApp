@@ -1,0 +1,42 @@
+                  @if($stripe_user_id)
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                      <div class="col-sm-3 col-md-3 col-lg-3"></div>
+
+                      <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="row">
+                            <div style="margin-top: 20px">
+                                <p style="margin-bottom:20px;margin-left:50px;font-size: 18px; font-weight: bold; vertical-align: bottom"><b>Stripe Information</b></p>
+                            </div>
+                            <div style="margin-top: 50px">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6 col-lg-6">
+                                        <p style="margin-bottom:20px;margin-left:50px;font-size: 16px; vertical-align: bottom">Access Token</p>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-6">
+                                        <a style="color: #2a6496; font-size: 16px">{{$access_token}}</a>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6 col-lg-6">
+                                        <p style="margin-bottom:20px;margin-left:50px;font-size: 16px; vertical-align: bottom">Stripe Publishable Key</p>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-6">
+                                        <a style="color: #2a6496; font-size: 16px">{{$stripe_publishable_key}}</a>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6 col-lg-6">
+                                        <p style="margin-bottom:20px;margin-left:50px;font-size: 16px; vertical-align: bottom">Stripe User ID</p>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-6">
+                                        <a style="color: #2a6496; font-size: 16px">{{$stripe_user_id}}</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  @endif

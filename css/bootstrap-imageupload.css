@@ -1,0 +1,28 @@
+/**
+ * bootstrap-imageupload v1.1.2
+ * https://github.com/egonolieux/bootstrap-imageupload
+ * Copyright 2016 Egon Olieux
+ * Released under the MIT license
+ */
+
+.imageupload.imageupload-disabled {
+  cursor: not-allowed;
+  opacity: 0.60;
+}
+.imageupload.imageupload-disabled > * {
+  pointer-events: none;
+}
+.imageupload .panel-title {
+  margin-right: 15px;
+  padding-top: 8px;
+}
+.imageupload .alert {
+  margin-bottom: 10px;
+}
+
+.imageupload .file-tab button {
+  display: none;
+}
+.imageupload .file-tab .thumbnail {
+  margin-bottom: 10px;
+}
